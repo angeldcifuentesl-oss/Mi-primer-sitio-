@@ -11,8 +11,8 @@ function mostrarNombre() {
 }
 
 function borrar() {
-    sessionStorage.removeItem("cuidad");
-    sessionStorage.removeItem("nombre"); 
+    localStorage.removeItem("cuidad");
+    localStorage.removeItem("nombre"); 
     mostrarNombre();                    
 }
 
